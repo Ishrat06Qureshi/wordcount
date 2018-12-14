@@ -1,0 +1,9 @@
+<a href="aboutus.html">about us</a>
+<h1>Counted the words</h1>
+<h2>total words</h2>
+total words={{total_words}}
+<br>
+{% for words,key in counted_words%}
+{{words}}={{key}}
+<br>
+{%endfor%}
